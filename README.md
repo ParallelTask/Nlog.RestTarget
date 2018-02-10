@@ -47,4 +47,9 @@ NLog.RestTarget solves these problems. You don't require to add root parameter f
  ````
  
 ```<parameter />``` is not supported. NLog.RestTarget only solves the JSON Layout problem.
+
+##Known Issues
+
+1. Supports only JSON body.
+2. Supports only HTTP Post Verb.
  
