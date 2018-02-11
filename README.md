@@ -37,13 +37,13 @@ NLog.RestTarget solves these problems. You don't require to add root parameter f
 <targets>
   <target name="wse" xsi:type="RestService" host="http://localhost:59802/api/hello/indexer">    
     <header name="Custom" layout="${mdlc:item=xxx}"/>
-      <layout xsi:type="JsonLayout" includeAllProperties="true">
-        <attribute name="Level" layout="${level}" />
-        <attribute name="Timestamp" layout="${longdate}" />
-        <attribute name="Message" layout="${message}" />
-      </layout>
-    </target>
- </targets>
+    <layout xsi:type="JsonLayout" includeAllProperties="true">
+      <attribute name="Level" layout="${level}" />
+      <attribute name="Timestamp" layout="${longdate}" />
+      <attribute name="Message" layout="${message}" />
+    </layout>
+  </target>
+</targets>
  ````
  
 ```<parameter />``` is not supported. NLog.RestTarget only solves the JSON Layout problem.
