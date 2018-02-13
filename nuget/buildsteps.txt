@@ -1,0 +1,5 @@
+1. Copy nuget.exe and Package.nuspec to the directory where solution file (.sln) exists
+2. Update Package.nuspec as per revision history and commits
+3. Run nuget pack Package.nuspec to build .nupkg file to distribute
+
+Reference: https://www.youtube.com/watch?v=8KdnrRm8jTA
