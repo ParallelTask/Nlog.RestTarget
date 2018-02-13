@@ -53,7 +53,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NLog.RestTarget\NLog.RestTarget.csproj">
+    <ProjectReference Include="..\..\NLog.RestTarget\NLog.RestTarget.csproj">
       <Project>{dd0df35a-4a4f-4c2b-b20f-7e00deadfc11}</Project>
       <Name>NLog.RestTarget</Name>
     </ProjectReference>

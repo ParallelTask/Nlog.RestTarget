@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.RestTarget", "NLog.Res
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{7EB1DF43-6BB8-4270-9FF0-893FF0AE4F00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.Console", "NLog.Console\NLog.Console.csproj", "{25955EE1-FA3A-439D-9903-27230148967A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.Console", "examples\NLog.Console\NLog.Console.csproj", "{25955EE1-FA3A-439D-9903-27230148967A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.RestApiTargetServer", "NLog.RestApiTargetServer\NLog.RestApiTargetServer.csproj", "{AF926718-1DED-44F8-AF0D-59CBA959027A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.RestApiTargetServer", "examples\NLog.RestApiTargetServer\NLog.RestApiTargetServer.csproj", "{AF926718-1DED-44F8-AF0D-59CBA959027A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
